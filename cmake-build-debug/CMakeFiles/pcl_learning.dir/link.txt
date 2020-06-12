@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/pcl_learning.dir/main.cpp.o  -o pcl_learning 
