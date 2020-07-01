@@ -1,7 +1,4 @@
 /home/pilcq/Downloads/clion-2019.2.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/pilcq/person/ownproject/pcl_learning
--- Checking for module 'eigen3'
---   Found eigen3, version 3.2.92
--- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
 -- Eigen found (include: /usr/include/eigen3, version: 3.2.92)
 CMake Warning at /home/pilcq/Downloads/clion-2019.2.5/bin/cmake/linux/share/cmake-3.15/Modules/FindBoost.cmake:1144 (message):
   New Boost version may have incorrect or missing dependencies and imported
@@ -75,68 +72,36 @@ Call Stack (most recent call first):
   CMakeLists.txt:4 (find_package)
 
 
--- Found Boost: /usr/local/include (found suitable version "1.73.0", minimum required is "1.55.0") found components:  system filesystem date_time iostreams serialization regex 
--- Checking for module 'flann'
---   Found flann, version 1.8.4
--- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
--- Checking for module 'libusb-1.0'
---   Found libusb-1.0, version 1.0.20
--- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
--- Found OpenNI: /usr/lib/libOpenNI.so  
 -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
--- Found OpenNI2: /usr/lib/libOpenNI2.so  
 -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
 ** WARNING ** io features related to pcap will be disabled
 ** WARNING ** io features related to png will be disabled
--- Found libusb-1.0: /usr/include  
 ** WARNING ** io features related to libusb-1.0 will be disabled
 -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
 -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
 -- Could NOT find Qhull (missing: QHULL_LIBRARIES QHULL_INCLUDE_DIRS) 
 ** WARNING ** surface features related to qhull will be disabled
 -- looking for PCL_COMMON
--- Found PCL_COMMON: /usr/local/lib/libpcl_common.so  
 -- looking for PCL_KDTREE
--- Found PCL_KDTREE: /usr/local/lib/libpcl_kdtree.so  
 -- looking for PCL_OCTREE
--- Found PCL_OCTREE: /usr/local/lib/libpcl_octree.so  
 -- looking for PCL_SEARCH
--- Found PCL_SEARCH: /usr/local/lib/libpcl_search.so  
 -- looking for PCL_SAMPLE_CONSENSUS
--- Found PCL_SAMPLE_CONSENSUS: /usr/local/lib/libpcl_sample_consensus.so  
 -- looking for PCL_FILTERS
--- Found PCL_FILTERS: /usr/local/lib/libpcl_filters.so  
 -- looking for PCL_2D
--- Found PCL_2D: /usr/local/include/pcl-1.11  
 -- looking for PCL_GEOMETRY
--- Found PCL_GEOMETRY: /usr/local/include/pcl-1.11  
 -- looking for PCL_IO
--- Found PCL_IO: /usr/local/lib/libpcl_io.so  
 -- looking for PCL_FEATURES
--- Found PCL_FEATURES: /usr/local/lib/libpcl_features.so  
 -- looking for PCL_ML
--- Found PCL_ML: /usr/local/lib/libpcl_ml.so  
 -- looking for PCL_SEGMENTATION
--- Found PCL_SEGMENTATION: /usr/local/lib/libpcl_segmentation.so  
 -- looking for PCL_VISUALIZATION
--- Found PCL_VISUALIZATION: /usr/local/lib/libpcl_visualization.so  
 -- looking for PCL_SURFACE
--- Found PCL_SURFACE: /usr/local/lib/libpcl_surface.so  
 -- looking for PCL_REGISTRATION
--- Found PCL_REGISTRATION: /usr/local/lib/libpcl_registration.so  
 -- looking for PCL_KEYPOINTS
--- Found PCL_KEYPOINTS: /usr/local/lib/libpcl_keypoints.so  
 -- looking for PCL_TRACKING
--- Found PCL_TRACKING: /usr/local/lib/libpcl_tracking.so  
 -- looking for PCL_RECOGNITION
--- Found PCL_RECOGNITION: /usr/local/lib/libpcl_recognition.so  
 -- looking for PCL_STEREO
--- Found PCL_STEREO: /usr/local/lib/libpcl_stereo.so  
 -- looking for PCL_OUTOFCORE
--- Found PCL_OUTOFCORE: /usr/local/lib/libpcl_outofcore.so  
 -- looking for PCL_PEOPLE
--- Found PCL_PEOPLE: /usr/local/lib/libpcl_people.so  
--- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_outofcore;pcl_people;/usr/local/lib/libboost_system.so;/usr/local/lib/libboost_filesystem.so;/usr/local/lib/libboost_date_time.so;/usr/local/lib/libboost_iostreams.so;/usr/local/lib/libboost_serialization.so;/usr/local/lib/libboost_regex.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;vtkfreetype;vtkzlib;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;vtkjpeg;vtkpng;vtktiff;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkdoubleconversion;vtklz4;vtklzma;vtkIOXMLParser;vtkexpat;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;vtkglew;FLANN::FLANN (Required is at least version "1.2") 
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/pilcq/person/ownproject/pcl_learning/cmake-build-debug
